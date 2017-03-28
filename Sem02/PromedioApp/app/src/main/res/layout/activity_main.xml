@@ -38,7 +38,8 @@
         android:id="@+id/btnProcesar"
         android:layout_below="@+id/etImporte"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="doProcesar" />
 
     <TextView
         android:text="TextView"
@@ -54,17 +55,22 @@
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvImporte"
-        android:layout_marginTop="14dp"
-        android:id="@+id/tvImpuesto" />
+        android:id="@+id/tvTotal"
+        android:layout_below="@+id/tvImpuesto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
 
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvTotal"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvImpuesto"
+        android:layout_below="@+id/tvImporte"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
 
 </RelativeLayout>

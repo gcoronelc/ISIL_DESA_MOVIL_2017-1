@@ -1,0 +1,19 @@
+Una aplicación Android para registrar 
+las ventas de una bodega.
+
+Cada venta es de un articulo.
+
+Debe poder hacer las siguientes operaciones:
+
+- Agregar venta.
+- Listar Ventas.
+- Eliminar venta.
+- Resumen de ventas.
+
+Presenta el 30-Mayo
+Practica 3 el 06-Jun
+
+Practica 04: 20-JUN
+Avance 4: 27-JUN
+
+

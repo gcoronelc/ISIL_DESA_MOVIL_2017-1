@@ -1,9 +1,58 @@
+TEMAS
+===================================================
+
 1.- Patrones Factory
+    
 2.- Programación Funcional
+    Velazco, Sandoval, Palá
+
 3.- Principios SOLID
+    Yllanes, Campos, 
+
 4.- Manejos de Logs
-5.- Expresiones Lambda y Strem en Java 8
-6.- Pruebas unitarias
-7.- Patrón Inyección de Dependencias
+    Révolo
+
+5.- Pruebas Unitarias
+    Maldonado, Rivera, Vecco
+
+6.- Patrón Inyección de Dependencias
+    
+
+7.- Manejo de Datos Genericos (Generic)
+
+
+8.- Hilos
+    Silva, Nizama, 
+
+
+QUE SE PRESENTA
+====================================================
+
+1.- Monografia con el formato APA
+2.- PPT para la exposición
+3.- Ejemplo ilustrativos 
+
+En un repositorio en GitHub: ISIL_DAM_Tema
+
+EVALUACION
+======================================================
+
+1.- Presentación: Individual (n1)
+2.- Monografia: Grupal       (n2)
+3.- Exposición: Individual   (n3)
+4.- Respuestas: Individual   (n4)
+5.- Ejemplos y exposición    (n5)
+
+Nota = (n1+n2+n3+n4+n5) / 5
+
+
+
+
+
+
+
+
+
+
 
 

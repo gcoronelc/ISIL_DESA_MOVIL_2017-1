@@ -64,17 +64,6 @@
         android:layout_alignParentStart="true"
         android:id="@+id/etVacantes" />
 
-    <Button
-        android:text="Procesar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/etVacantes"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="10dp"
-        android:id="@+id/btnProcesar"
-        android:onClick="doProcesar (MainActivity)" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -86,5 +75,15 @@
         android:id="@+id/etRepo"
         android:editable="false"
         android:scrollbars="horizontal|vertical" />
+
+    <Button
+        android:text="Procesar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProcesar"
+        android:onClick="doProcesar (MainActivity)"
+        android:layout_below="@+id/etVacantes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_opciones"
+        android:title="@string/menu_opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_opciones_sumar"
+                android:title="@string/menu_opciones_sumar" />
+            <item
+                android:id="@+id/menu_opciones_restar"
+                android:title="@string/menu_opciones_restar" />
+            <item
+                android:id="@+id/menu_opciones_multiplicar"
+                android:title="@string/menu_opciones_multiplicar" />
+            <item
+                android:id="@+id/menu_opciones_dividir"
+                android:title="@string/menu_opciones_dividir" />
+            <item
+                android:id="@+id/menu_opciones_modulo"
+                android:title="@string/menu_opciones_modulo" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_web"
+        android:title="@string/menu_web">
+        <menu>
+            <item
+                android:id="@+id/menu_web_isil"
+                android:title="@string/menu_web_isil" />
+            <item
+                android:id="@+id/menu_web_uni"
+                android:title="@string/menu_web_uni" />
+            <item
+                android:id="@+id/menu_web_egcc"
+                android:title="@string/menu_web_egcc" />
+        </menu>
+    </item>
+
+
+</menu>

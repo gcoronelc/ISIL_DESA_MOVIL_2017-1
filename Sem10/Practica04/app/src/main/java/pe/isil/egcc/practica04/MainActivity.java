@@ -6,13 +6,23 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText etNombre;
+    private EditText etRepo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        etNombre = (EditText) findViewById(R.id.etNombre);
+        etRepo = (EditText) findViewById(R.id.etRepo);
+
+
     }
 
 
@@ -29,15 +39,28 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.menu_web_egcc) {
             mostrarPagina("http://gcoronelc.blogspot.pe/");
+        } else if (id == R.id.menu_opciones_sumar) {
+            Data.agregar(etNombre.getText().toString());
+            etNombre.setText("");
+        } else if (id == R.id.menu_opciones_restar) {
+            listado();
         }
 
         return super.onOptionsItemSelected(item);
     }
 
+    private void listado() {
+        String repo = "";
+        for (String s : Data.nombres) {
+            repo += s + "\n";
+        }
+        etRepo.setText(repo);
+    }
+
+
     private void mostrarPagina(String url) {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(browserIntent);
     }
-
 
 }

@@ -1,0 +1,15 @@
+Desarrollar una aplicación que permita registrar las notas de los alumnos de "Aplicaciones Moviles".
+
+- Son 4 notas.
+- Se promedian las 3 mejores.
+
+La aplicación debe permitir:
+
+- Ver un listado de de los alumnos
+- Eliminar un alumno
+- Ver un resumen:
+    . Nota Mayor
+    . Nota Menor
+    . Nota promedio
+
+

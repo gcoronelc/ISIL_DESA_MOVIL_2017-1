@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         etNombre = (EditText) findViewById(R.id.etNombre);
         etRepo = (EditText) findViewById(R.id.etRepo);
-
-
     }
 
 

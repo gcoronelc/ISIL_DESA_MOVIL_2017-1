@@ -2,6 +2,7 @@ TEMAS
 ===================================================
 
 1.- Patrones Factory
+    Tornero
     
 2.- Programación Funcional
     Velazco, Sandoval, Palá
@@ -19,7 +20,7 @@ TEMAS
     
 
 7.- Manejo de Datos Genericos (Generic)
-
+    Ruiz, Rincon
 
 8.- Hilos
     Silva, Nizama, 

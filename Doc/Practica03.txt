@@ -12,4 +12,5 @@ La aplicación debe permitir:
     . Nota Menor
     . Nota promedio
 
-
+Enviar a correo: egcc.isil@gmail.com
+Fecha de envío: Jueves 01-JUN-2017 12 am

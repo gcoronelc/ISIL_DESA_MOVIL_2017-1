@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practica Gustavo</string>
+    <string name="menu_opciones">Opciones</string>
+    <string name="menu_opciones_sumar">Sumar</string>
+    <string name="menu_opciones_restar">Restar</string>
+    <string name="menu_opciones_multiplicar">Multiplicar</string>
+    <string name="menu_opciones_dividir">Dividir</string>
+    <string name="menu_opciones_modulo">Modulo</string>
+    <string name="menu_web">Web</string>
+    <string name="menu_web_isil">ISIL</string>
+    <string name="menu_web_uni">UNI</string>
+    <string name="menu_web_egcc">EGCC</string>
+</resources>

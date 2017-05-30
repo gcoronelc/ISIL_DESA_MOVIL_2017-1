@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_opciones"
+        android:title="@string/menu_opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_opciones_agregar"
+                android:title="Agregar" />
+            <item
+                android:id="@+id/menu_opciones_listar"
+                android:title="Listar" />
+            <item
+                android:id="@+id/menu_opciones_eliminar"
+                android:title="Eliminar" />
+            <item
+                android:id="@+id/menu_opciones_resumen"
+                android:title="Resumen" />
+        </menu>
+    </item>
+</menu>

@@ -1,24 +1,23 @@
 TEMAS
 ===================================================
 
-1.- Patrones Factory
+1.- Patrones Factory: Simple Factory, Factory Method, Abstract Factory
     Tornero
     
-2.- Programación Funcional
+2.- Programación Funcional: Lambda y Strem
     Velazco, Sandoval, Palá
 
 3.- Principios SOLID
     Yllanes, Campos, 
 
-4.- Manejos de Logs
+4.- Manejos de Logs: 
     Révolo
 
-5.- Pruebas Unitarias
+5.- Pruebas Unitarias - Excelente tema
     Maldonado, Rivera, Vecco
 
 6.- Patrón Inyección de Dependencias
     
-
 7.- Manejo de Datos Genericos (Generic)
     Ruiz, Rincon
 
@@ -45,12 +44,6 @@ EVALUACION
 5.- Ejemplos y exposición    (n5)
 
 Nota = (n1+n2+n3+n4+n5) / 5
-
-
-
-
-
-
 
 
 
